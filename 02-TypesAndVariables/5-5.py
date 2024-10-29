@@ -1,0 +1,5 @@
+price= input('Enter price:')
+discount= input('Enter discount %:')
+price_with_discount= float(price)-(price)*(discount)
+reduction= float((price)-(price_with_discount))
+print(f'Product price is {price}. The discount is {discount}. Discounted price is {price_with_discount}. Reduction is {reduction}.')
