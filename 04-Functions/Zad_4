@@ -1,0 +1,9 @@
+from collections import Counter
+
+
+def main():
+    letter = input("Enter letter: ")
+    counter = Counter("You never get a second chance to make a first impression")
+    print(f"The number of letter '{letter}': {counter[letter]}")
+
+main()

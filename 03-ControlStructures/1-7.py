@@ -13,5 +13,6 @@ else:
     print(basic_salary)
 
 print(f'Basic salary: {basic_salary}')
+print('Basic salary: ', basic_salary, 'dalszy tekst')
 print(f'Bonus included? {bonus}')
 print(f'Total salary: {total_salary}')

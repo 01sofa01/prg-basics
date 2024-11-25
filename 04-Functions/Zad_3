@@ -1,0 +1,10 @@
+def month_name(month_number):
+    month_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    return month_list[int(month_number) - 1]
+
+
+def main():
+    month_number = input("Enter month number: ")
+    print("month_name:", month_name(month_number))
+
+main()

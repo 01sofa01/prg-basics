@@ -1,0 +1,28 @@
+def main():
+    number_list = [0,1,2,3,4,5]
+    print(number_list[:2])
+    print(number_list[2:])
+    sum = 0
+    for i in range(0, len(number_list), 2):
+        #print("i", i)
+        sum = sum + number_list[i]
+
+    print("sum", sum)
+
+    sum_2 = 0
+    j = 0
+    while j < 10:
+        sum_2 = sum_2 + j
+        j = j + 1
+
+    print("sum_2", sum_2)
+
+    sum_3 = 0
+    j = 1
+    while j < len(number_list):
+        sum_3 = sum_3 + number_list[j]
+        j = j + 2
+
+    print("sum_3", sum_3)
+
+main()
