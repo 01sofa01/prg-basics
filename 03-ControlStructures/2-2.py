@@ -4,7 +4,7 @@
 # XL: Extra large size or Incorrect symbol (if entered symbol
 # dirrerent than S, M, L, XL)
 #
-size = input('Enter size symbol: ')
+size = input('Enter size symbol: ').upper()
 
 if size == 'S':
     print('S: Small size')

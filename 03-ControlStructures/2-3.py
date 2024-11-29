@@ -5,7 +5,7 @@
 # total fuel consumption for a given distance in km and a given
 # driving mode.
 #
-driving_mode = str(input('Enter driving mode (A/M/E):'))
+driving_mode = str(input('Enter driving mode (A/M/E):')).upper()
 distance = int(input('Enter distance in km '))
 
 if driving_mode == 'A':
@@ -15,7 +15,7 @@ elif driving_mode == 'M':
 elif driving_mode == 'E':
     fuel_consumption = 6   
 
-...
+
 
 total_consumption = distance*fuel_consumption/100
 print(f'Total fuel consumption over a distance of {distance} km in driving mode {driving_mode} is {total_consumption} liters')
