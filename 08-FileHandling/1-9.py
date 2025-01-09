@@ -3,14 +3,16 @@
 #
 
 # Employee List
-file_name = 'it_company.txt'
+file_name = '08-FileHandling\it_company.csv'
 
 # Position
 job_title = 'Software Engineer'
 
-with open(name) as file:
-   file_content = read_from_file('it_company.csv')  
+with open(file_name) as file:
+   file_content = file.read()  
+   print(file_content)
    file_lines = file_content.splitlines() 
    for line in file_lines:
-      if job_title in file_lines:
-         print(job_title)
+      dane = line.split(",")
+      if job_title in dane:
+         print(dane)

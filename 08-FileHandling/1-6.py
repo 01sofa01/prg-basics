@@ -7,8 +7,8 @@ def read_from_file(name):
    return content
 
 # reads the entire file
-file_content = read_from_file('countries.txt')
-
+file_content = read_from_file('08-FileHandling/countries.txt')
+print(type(read_from_file('08-FileHandling/countries.txt')))
 # splits the entire file contents into lines
 # and stores them in an array
 file_lines = file_content.splitlines()
